@@ -1,0 +1,12 @@
+C:\Zeeshan\Zeeshan Ayyub\Control Version\UserAuthentication\UserManagementApp.Services\bin\Debug\net7.0\UserManagementApp.Services.deps.json
+C:\Zeeshan\Zeeshan Ayyub\Control Version\UserAuthentication\UserManagementApp.Services\bin\Debug\net7.0\UserManagementApp.Services.dll
+C:\Zeeshan\Zeeshan Ayyub\Control Version\UserAuthentication\UserManagementApp.Services\bin\Debug\net7.0\UserManagementApp.Services.pdb
+C:\Zeeshan\Zeeshan Ayyub\Control Version\UserAuthentication\UserManagementApp.Services\obj\Debug\net7.0\UserManagementApp.Services.csproj.AssemblyReference.cache
+C:\Zeeshan\Zeeshan Ayyub\Control Version\UserAuthentication\UserManagementApp.Services\obj\Debug\net7.0\UserManagementApp.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Zeeshan\Zeeshan Ayyub\Control Version\UserAuthentication\UserManagementApp.Services\obj\Debug\net7.0\UserManagementApp.Services.AssemblyInfoInputs.cache
+C:\Zeeshan\Zeeshan Ayyub\Control Version\UserAuthentication\UserManagementApp.Services\obj\Debug\net7.0\UserManagementApp.Services.AssemblyInfo.cs
+C:\Zeeshan\Zeeshan Ayyub\Control Version\UserAuthentication\UserManagementApp.Services\obj\Debug\net7.0\UserManagementApp.Services.csproj.CoreCompileInputs.cache
+C:\Zeeshan\Zeeshan Ayyub\Control Version\UserAuthentication\UserManagementApp.Services\obj\Debug\net7.0\UserManagementApp.Services.dll
+C:\Zeeshan\Zeeshan Ayyub\Control Version\UserAuthentication\UserManagementApp.Services\obj\Debug\net7.0\refint\UserManagementApp.Services.dll
+C:\Zeeshan\Zeeshan Ayyub\Control Version\UserAuthentication\UserManagementApp.Services\obj\Debug\net7.0\UserManagementApp.Services.pdb
+C:\Zeeshan\Zeeshan Ayyub\Control Version\UserAuthentication\UserManagementApp.Services\obj\Debug\net7.0\ref\UserManagementApp.Services.dll
