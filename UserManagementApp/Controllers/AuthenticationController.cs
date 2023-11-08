@@ -93,7 +93,7 @@ namespace UserManagementApp.Controllers
             // Add Role
 
         }
-        [HttpGet]
+        [HttpGet("TestEmail")]
         public async Task<IActionResult> TestEmail()
         {
             var message = new Message(new string[] { "linkzeeshan.ayyub@gmail.com" }, "Test", "<h1>I am testing email</h1>");
@@ -148,11 +148,15 @@ namespace UserManagementApp.Controllers
                 //Implementing  two factor authentication in case of Enabled two factor
                 if(user.TwoFactorEnabled)
                 {
+                    //SignOut user
+                    await _signinManager.SignOutAsync();
+                    await _signinManager.PasswordSignInAsync(user, login.Password, false, true);
                     //sending OTP to user email for varification
                     //Add token to verify email
                     var token = await _userManager.GenerateTwoFactorTokenAsync(user, "Email");
                     //var confirmationLink = Url.Action(nameof(ConfirmEmail), "Authentication", new { token, email = user.Email });
                     var message = new Message(new string[] { user.Email! }, "OTP Confirmation", token);
+                    await _emailService.SendEmailAsyc(message);
                     return StatusCode(StatusCodes.Status200OK,
                        new Response { Status = "Success", Message = $"We have sent to OTP on your Email {user.Email} successfully" }
                        );

@@ -25,7 +25,7 @@ namespace UserManagementApp.Services.Services
         private MimeMessage CreateEmailMessage(Message message)
         {
             var emailMessage = new MimeMessage();
-            emailMessage.From.Add(new MailboxAddress("emai", _emailConfiguration.From));
+            emailMessage.From.Add(new MailboxAddress("Cdoxs email", _emailConfiguration.From));
             emailMessage.To.AddRange(message.To);
             emailMessage.Subject = message.Subject;
             emailMessage.Body = new TextPart(TextFormat.Text) { Text = message.Content };
