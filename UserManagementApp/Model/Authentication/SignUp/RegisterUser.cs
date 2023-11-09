@@ -11,5 +11,6 @@ namespace UserManagementApp.Model.Authentication.SignUp
         public string? Email { get; set; }
         [Required(ErrorMessage = "Name is Password")]
         public string? Password { get; set; }
+        public string[] UserRoles { get; set; }
     }
 }
